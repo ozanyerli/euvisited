@@ -53,8 +53,12 @@ html {
     background-color: #013395;
 }
 
-#ko-fi {
+#coffee {
     float:right;
     margin-right: 19%;
     margin-top: 1em;
+}
+
+a {
+    font-size: 1.5em;
 }

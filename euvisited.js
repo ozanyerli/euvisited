@@ -52,9 +52,7 @@ d3.json('eu-countries.json').then(function (data) {
         .attr('text-anchor', 'middle')
         .attr('font-size', '11pt')
         .attr('fill', 'white')
-        .attr('style', 'pointer-events: none;')
-        .attr('style', 'text-shadow: 0 0 0.5em #000;');
-
+        .attr('style', 'text-shadow: 0 0 0.5em #000; pointer-events: none;')
 });
 
 function downloadMap() {
