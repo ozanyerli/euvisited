@@ -25,7 +25,7 @@ html {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
+    margin-top: 1%;
     width: 1250px;
     height: 750px;
     background-color: #e3e2df;
@@ -34,7 +34,7 @@ html {
 #download_button {
     /*margin-left: 335px; */
     margin-left: 17%;
-    margin-top: 1em;
+    margin-top: 1.5em;
     padding: 0.5em 1.7em;
     border: 0.16em solid rgb(255, 255, 255);
     border-radius: 2em;
@@ -51,4 +51,10 @@ html {
 #download_button:hover {
     color: white;
     background-color: #013395;
+}
+
+#ko-fi {
+    float:right;
+    margin-right: 19%;
+    margin-top: 1em;
 }
