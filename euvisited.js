@@ -31,7 +31,7 @@ d3.json('eu-countries.json').then(function (data) {
         });
 
 
-    console.log(data.features.map((f) => f.properties.NAME))
+    //console.log(data.features.map((f) => f.properties.NAME))
 
     g = svg.append('g')
 
