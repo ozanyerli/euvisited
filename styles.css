@@ -54,9 +54,11 @@ html {
 }
 
 #coffee {
-    float:right;
+    float: right;
+    position: relative;
     margin-right: 20%;
     margin-top: 1em;
+    z-index: 10;
 }
 
 a {
